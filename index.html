@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>User Conversion Test</title>
+  <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header><img src="images/logo.jpg"></header>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="input-wrap">
+            <input id="user-input" name="userInput"  /> 
+            <div id="input-logo-wrap"><img src="images/gbp.png"><span id="input-currency">GBP</span></div>
+        </div>
+        
+        <p id="warning"></p>
+        <button onclick="convertCurrency()">Convert</button>
+        <div class="screen">
+            <p id="screen-top"></p>
+            <div>
+                <span id="screen-bottom"></span><img id="aud-logo" src="images/aud.png">
+            </div>
+            <p id="time-screen"></p>
+        </div>
+        
+    </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

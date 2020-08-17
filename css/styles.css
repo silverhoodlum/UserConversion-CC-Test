@@ -1,0 +1,156 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    background: rgb(17,34,29);
+    background: linear-gradient(180deg, rgba(17,34,29,0.5653448879551821) 0%, rgba(33,75,70,0.3776698179271709) 49%, rgba(0,212,255,0.00792191876750703) 100%)fixed;
+    margin: 0;
+}
+
+header img{
+    width: 100%;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+}
+h1{
+    font-size: 2.1rem;
+    font-weight: 900;
+    margin: 20% auto;
+}
+.input-wrap{
+    display: flex;
+    width: 90%;
+}
+input{
+    width: 70%;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+#input-logo-wrap{
+    background-color: #373961;
+    height: 3rem;
+    width: 30%;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+#input-logo-wrap img{
+    height: 1.1rem;
+    margin: 1rem 0.4rem;
+    border-radius: 4px;
+}
+#input-currency{
+    font-size: 1.1rem;
+    line-height: 3rem;  
+}
+#warning{
+    color: #FF0000;
+    font-size: 1.4rem;
+    text-align: center;
+}
+button{
+    width: 40%;
+    font-size: 1rem;
+    height: 2rem;
+    background-color: #26A65B;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+}
+#aud-logo{
+    height:1.5rem;
+    margin: 0.2rem 1rem;
+    display: none;
+    border-radius: 4px;
+}
+.screen{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#screen-bottom{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3rem;
+}
+#time-screen{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+
+
+/* Large screens */
+
+
+@media only screen and (min-width: 1200px) {
+header{
+    text-align: right;
+    background-color: #6025cd;
+}
+header img{
+    width: 30%;
+    padding: 0;
+}
+h1{
+    font-size: 3rem;
+    margin: 4% auto;
+}
+.input-wrap{
+    display: flex;
+    width: 50%;
+}
+input{
+    width: 70%;
+    height: 3rem;
+    font-size: 2rem;
+}
+#input-logo-wrap{
+    height: 3rem;
+    width: 30%;
+}
+
+#input-logo-wrap img{
+    height: 1.5rem;
+    margin: .75rem;
+}
+#input-currency{
+    font-size: 1.5rem;
+    line-height: 3rem;  
+}
+#warning{
+    font-size: 1.2rem;
+}
+button{
+    width: 10%;
+    font-size: 1rem;
+    height: 2rem;
+}
+#aud-logo{
+    height:1.75rem;
+    margin: 0.3rem 1.5rem;
+}
+.screen{
+    font-size: 2rem;
+}
+#screen-bottom{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 0rem;
+}
+#time-screen{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+}
